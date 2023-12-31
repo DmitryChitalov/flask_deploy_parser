@@ -14,7 +14,7 @@ from .database import db_session
 
 
 def main():
-    print("я тут")
+
     # Читаем конфигурационные параметры
     config = cfg.ConfigParser()
     config.read("./flask_parser/hh_config.ini")
@@ -26,6 +26,7 @@ def main():
 
         # Читаем записи со статусом 0 из БД
         rows = read_requests(db_session)
+        print(f" я тут {rows}")
         if rows:
             # Если записи найдены, то начинаем обработку
             for row_request in rows:
