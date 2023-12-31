@@ -12,7 +12,7 @@ from flask import Blueprint, render_template, session, request, flash, redirect
 from flask_table import Table, Col, LinkCol
 from sqlalchemy import desc
 
-#import hh_parser.parser_app.hhrequest as hr
+from ..parser_app.hhrequest import HHRequest
 from ..database import db_session
 from ..models import Request
 
@@ -51,7 +51,7 @@ def requests():
             # Достаем нужные данные из формы запроса
             region = request.form["Region"]
             text_request = request.form["Request"]
-            o_hhrequest = hr.HHRequest(None)
+            o_hhrequest = HHRequest(None)
             try:
                 # Проверяем правильность задания региона
                 j_result = o_hhrequest.set_region(region)
