@@ -16,9 +16,9 @@ import json
 from .process_request import read_requests, process_request
 from .database import db_session
 
-
+print("хуец")
 def main():
-    print("хуец")
+
     # Читаем конфигурационные параметры
     config = cfg.ConfigParser()
     config.read("./flask_parser/hh_config.ini")
