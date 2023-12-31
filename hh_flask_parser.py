@@ -7,5 +7,5 @@ if __name__ == '__main__':
 
     #par_service = ml.Process(name="HH Parser", target=pr.main)
     #par_service.start()
-    main()
+    #main()
     app.run(debug=True)

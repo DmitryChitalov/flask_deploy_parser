@@ -16,18 +16,18 @@ import json
 from .process_request import read_requests, process_request
 from .database import db_session
 
+#print("хуец")
+#def main():
 print("хуец")
-def main():
+# Читаем конфигурационные параметры
+config = cfg.ConfigParser()
+config.read("./flask_parser/hh_config.ini")
+sqlite_db = config["SQLite"]["path"]
+file_folder = config["Json"]["path"]
 
-    # Читаем конфигурационные параметры
-    config = cfg.ConfigParser()
-    config.read("./flask_parser/hh_config.ini")
-    sqlite_db = config["SQLite"]["path"]
-    file_folder = config["Json"]["path"]
-
-    i_cycle = 0
-    while True:
-        pass
+i_cycle = 0
+while True:
+    print("хуй")
         # # Читаем записи со статусом 0 из БД
         # rows = read_requests(db_session)
         # print(f" я тут {rows}")
