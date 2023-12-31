@@ -50,16 +50,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flask_parser" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Дмитрий\Desktop\flask_deploy_parser\flask_parser" />
+      <recent name="C:\Users\Дмитрий\Desktop\flask_deploy_parser" />
       <recent name="C:\Users\Администратор\Desktop\Второй вариант курса\Урок_8\flask_blog" />
       <recent name="C:\Users\Администратор\Desktop\Второй вариант курса\Урок_8\flask_blog\flask_blog" />
       <recent name="C:\Users\Администратор\Desktop\Второй вариант курса\Урок_7\flask_blog\flask_blog" />
-      <recent name="C:\Users\Администратор\Desktop\Второй вариант курса\Урок_5\flask_blog\flask_blog\templates" />
-      <recent name="C:\Users\Администратор\Desktop\Второй вариант курса\Урок_4\flask_blog\flask_blog\templates" />
     </key>
   </component>
   <component name="RunManager" selected="Python.hh_flask_parser">
@@ -131,21 +131,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1703879061376" />
-    <state width="1899" height="266" key="GridCell.Tab.0.bottom" timestamp="1703939945436">
+    <state width="1899" height="266" key="GridCell.Tab.0.bottom" timestamp="1703940152867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1703939945436" />
-    <state width="1899" height="266" key="GridCell.Tab.0.center" timestamp="1703939945436">
+    <state width="1899" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1703940152867" />
+    <state width="1899" height="266" key="GridCell.Tab.0.center" timestamp="1703940152867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1703939945436" />
-    <state width="1899" height="266" key="GridCell.Tab.0.left" timestamp="1703939945436">
+    <state width="1899" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1703940152867" />
+    <state width="1899" height="266" key="GridCell.Tab.0.left" timestamp="1703940152867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1703939945436" />
-    <state width="1899" height="266" key="GridCell.Tab.0.right" timestamp="1703939945436">
+    <state width="1899" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1703940152867" />
+    <state width="1899" height="266" key="GridCell.Tab.0.right" timestamp="1703940152867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1703939945436" />
+    <state width="1899" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1703940152867" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1704001904848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1704001904848" />
   </component>
 </project>
