@@ -27,7 +27,7 @@ file_folder = config["Json"]["path"]
 
 i_cycle = 0
 while True:
-
+    print("хай")
     # Читаем записи со статусом 0 из БД
     rows = read_requests(db_session)
     # print(f" я тут {rows}")
@@ -42,7 +42,7 @@ while True:
 
     else:
         # Переходим в режим ожидания
-        time.sleep(5)
+        time.sleep(2)
         sys.stdout.write("\r")
         sys.stdout.write(f"Новых запросов не найдено. Цикл {i_cycle}")
     i_cycle += 1
