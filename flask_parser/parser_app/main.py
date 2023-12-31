@@ -12,7 +12,7 @@ import json
 from .process_request import read_requests, process_request
 from .database import db_session
 
-
+print("я тут")
 def main():
     # Читаем конфигурационные параметры
     config = cfg.ConfigParser()
@@ -22,6 +22,7 @@ def main():
 
     i_cycle = 0
     while True:
+
         # Читаем записи со статусом 0 из БД
         rows = read_requests(db_session)
         if rows:
