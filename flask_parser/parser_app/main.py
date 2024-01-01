@@ -43,7 +43,7 @@ def main():
 
         else:
             ## Переходим в режим ожидания
-            time.sleep(1)
+            time.sleep(0.1)
             sys.stdout.write("\r")
             sys.stdout.write(f"Новых запросов не найдено. Цикл {i_cycle}")
         i_cycle += 1
