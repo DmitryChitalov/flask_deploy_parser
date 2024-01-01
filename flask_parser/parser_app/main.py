@@ -18,7 +18,7 @@ from .process_request import read_requests, process_request
 from .database import db_session
 
 
-# print("хуец")
+print("хуец")
 def main():
     # print("хуец")
     # Читаем конфигурационные параметры
@@ -29,7 +29,6 @@ def main():
 
     i_cycle = 0
     while True:
-        pass
         # Читаем записи со статусом 0 из БД
         rows = read_requests(db_session)
         print(f" я тут {rows}")
